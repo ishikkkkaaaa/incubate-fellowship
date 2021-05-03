@@ -551,6 +551,7 @@ figure.testimonial blockquote {
   margin: 0;
   padding: 25px 50px 30px;
   position: relative;
+  overflow-x: visible;
 }
 figure.testimonial blockquote:before,
 figure.testimonial blockquote:after {
