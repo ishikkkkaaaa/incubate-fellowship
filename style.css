@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   overflow-x: hidden;
 }
+
+body {
+  background-color: #fefaff;
+}
+
 #header {
-  overflow-x: hidden;
-  margin-right: -100px;
-  margin-top: -100px;
+  margin-right: -40px;
+  margin-top: -5px;
   background-size: 700px;
   background-image: url(images/background.png);
   background-position: right;
@@ -16,21 +22,26 @@
 
 .container {
   margin-left: 100px;
-  overflow-x: hidden;
   height: auto;
+  overflow-x: visible;
 }
 .logo {
   margin-top: 180px;
   width: 250px;
 }
 
+#header hr {
+  max-width: 550px;
+}
+
 .header-text {
-  max-width: 350px;
   margin-top: 140px;
+  margin-left: -30px;
 }
 .main h1 {
-  font-size: 50px;
-  color: #4f4f4f;
+  font-size: 45px;
+  color: black;
+  position: relative;
 }
 .square {
   height: 12px;
@@ -53,7 +64,10 @@ p {
   color: #777;
 }
 .main h3 {
-  line-height: 30px;
+  line-height: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 550px;
   color: #777;
 }
 .header-text button {
@@ -284,12 +298,12 @@ form input {
 ul li {
   display: inline;
 }
-.color{
-    color: #777;
-  }
-.color.hover{
-    color: #777;
-    text-decoration: none;
+.color {
+  color: #777;
+}
+.color.hover {
+  color: #777;
+  text-decoration: none;
 }
 hr {
   width: 100%;
@@ -303,17 +317,31 @@ hr {
   flex-wrap: wrap;
 }
 .footer-left-col {
-  flex-basis: 50%;
+  flex-basis: 60%;
   margin-top: 50px;
 }
 .footer-right-col {
-  flex-basis: 45%;
+  flex-basis: 40%;
+  position: relative;
+  left: 300px;
 }
 .footer-links {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.link-title {
+  padding-right: 30px;
+}
+.connect {
+  padding-right: 0;
+}
+.connect ul {
+  padding-left: 0;
+}
+.connect ul li {
+  padding: 5px;
 }
 .link-title h4 {
   color: #9e45f8;
@@ -649,13 +677,20 @@ figure.testimonial .peopl h3 {
 
 /* Desktop Navigation */
 
+nav {
+  width: 85%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .navv a {
   color: #000000;
   position: relative;
-  padding: 30px 30px 40px 0px; /*   padding: 11px 15px; */
+  padding: 30px 30px 30px 0px; /*   padding: 11px 15px; */
   transition: 0.3s;
-
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 300;
   font-family: sans-serif;
 }
 
