@@ -321,8 +321,8 @@ hr {
   margin-top: 50px;
 }
 .footer-right-col {
-  flex-basis: 40%;
-  position: relative;
+  flex-basis: 35%;
+  /* position: relative; */
   left: 300px;
 }
 .footer-links {
@@ -361,15 +361,15 @@ hr {
 .footer-logo img {
   width: 100px;
 }
-.footer-logo button {
+.btnn {
   padding: 12px 30px;
   margin-top: 20px;
   font-size: 10px;
 }
-.copyright-text,
+/* .copyright-text,
 .footer-logo {
-  flex-basis: 40%;
-}
+  flex-basis: 100%;
+} */
 
 @media only screen and (max-width: 1200px) {
   #header {
