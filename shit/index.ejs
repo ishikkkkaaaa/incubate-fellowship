@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply Now</title>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="style.css" class="stylesheet" />
+    <link rel="stylesheet" href="bs.css" class="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <a href="#" class="navbar-brand">
+        <img
+          src="https://www.incubateind.com/fellows/img/Fellowship_Logo.png"
+          height="50"
+          alt="CoolBrand"
+        />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"
+          ><img src="https://img.icons8.com/android/24/000000/menu.png"
+        /></span>
+      </button>
+
+      <div class="collapse navbar-collapse navv ml-auto" id="navbarCollapse">
+        <div class="navv form-inline ml-auto">
+          <a href="#about" class="nav-item nav-link active">About Us</a>
+          <a href="#benefit" class="nav-item nav-link">Benifits</a>
+          <a href="#fellow" class="nav-item nav-link">Our Fellows</a>
+          <a href="#timeline" class="nav-item nav-link active">Timeline</a>
+          <a href="#footer" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-form">
+      <h1>Personal Details</h1>
+      <form method="POST" action="/about">
+        <div class="form-controle no1">
+          <input name="fname" type="text" required />
+          <label>Full Name</label>
+        </div>
+        <div class="form-controle no2">
+          <input name="email" type="email" required />
+          <label>E-mail</label>
+        </div>
+        <div class="form-controle no3">
+          <input name="phone" type="tel" required />
+          <label>Phone Number</label>
+        </div>
+        <div class="form-controle no4">
+          <input name="dob" type="date" required />
+          <label>Date of Birth</label>
+        </div>
+        <div class="form-controle no5">
+          <input name="city" type="text" required />
+          <label>City</label>
+        </div>
+        <div class="form-controle no6">
+          <input name="college" type="text" required />
+          <label>College</label>
+        </div>
+        <div class="form-controle no7">
+          <input name="course" type="text" required />
+          <label>Course</label>
+        </div>
+        <div class="form-controle no8">
+          <input name="branch" type="text" required />
+          <label>Branch</label>
+        </div>
+        <div class="form-controle no9">
+          <input name="linkedin" type="url" required />
+          <label>Linkedin</label>
+        </div>
+        <div class="form-controle no10">
+          <input name="github" type="url" required />
+          <label>Github</label>
+        </div>
+        <div class="form-controle no11">
+          <input name="portfolio" type="url" required />
+          <label>Link to any portfolio</label>
+        </div>
+        <div class="form-controle no12">
+          <input name="year of study" type="number" required />
+          <label>Year</label>
+        </div>
+        <div class="form-controle no13">
+          <label>Skills</label>
+          <select name="skill" id="">
+            <option value="web dev">Web Development</option>
+            <option value="android dev">Android Development</option>
+            <option value="ai ml">AI/ML</option>
+            <option value="cloud computing">Clout Computing</option>
+            <option value="big data">Big Data</option>
+          </select>
+        </div>
+        <button type="submit">NEXT</button>
+      </form>
+    </div>
+    <section id="footer">
+      <div class="container footer-row">
+        <hr />
+        <div class="footer-left-col">
+          <div class="footer-links">
+            <div class="link-title">
+              <h4>About Us</h4>
+              <small>INCIND Technology Fellowship</small><br />
+              <small>is one of its kind, exclusive</small><br />
+              <small>program for aspiring</small><br />
+              <small>developers, coders, hackers,</small><br />
+              <small>designers and innovators to</small><br />
+              <small>work/intern with senior</small><br />
+              <small>technology leaders and</small><br />
+              <small>industry experts.</small>
+            </div>
+            <div class="link-title">
+              <h4>Resources</h4>
+              <small
+                ><a href="/fellowsreg" class="color"
+                  >Apply for Fellowship</a
+                ></small
+              ><br />
+              <small
+                ><a href="http://incubateind.com" class="color" target="_blank"
+                  >IncubateIND</a
+                ></small
+              ><br />
+              <small
+                ><a href="https://techxty.com" class="color" target="_blank"
+                  >Techxty</a
+                ></small
+              >
+            </div>
+            <!-- <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small><br>
+                        <small>Contact US</small>
+                    </div> -->
+            <div class="link-title connect">
+              <h4>Connect with us!</h4>
+              <ul class="social">
+                <li>
+                  <a href="https://twitter.com/incubateind" target="_blank"
+                    ><img src="images/twitter.png" alt="" class="src"
+                  /></a>
+                </li>
+                <li>
+                  <a href="http://facebook.com/IncubateIND/" target="_blank"
+                    ><img src="images/facebook.png" alt="" class="src"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/incubateind"
+                    target="_blank"
+                    ><img src="images/linkedin.png" alt="" class="src"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/incubateindia/"
+                    target="_blank"
+                    ><img src="images/instagram.png" alt="" class="src"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-right-col">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <img src="https://www.incubateind.com/images/logo.svg" />
+              <button class="common-btn">VISIT US!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
